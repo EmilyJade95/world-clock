@@ -22,9 +22,10 @@
   </head>
   <body>
     <div class="container">
-      <div class="row title">
-        <div class="col-8">
-          <h1>World Clock</h1>
+      <button>Dark Theme</button>
+      <div class="row heading mt-4">
+        <div class="col-8 title">
+          <h1 class="text-start fs-1">World Clock</h1>
         </div>
         <div class="col-4">
           <img src="css/images/personal-logo-bw.png" alt="#" class="logo" />
@@ -34,28 +35,39 @@
         <div class="col-12">
           <select name="city-choice" id="city-choice" class="col-12 drop-down">
             <option value="">Select a City</option>
-            <option value="current location">📍Current Location</option>
-            <option value="Europe/London">🇬🇧 London</option>
-            <option value="America/New York">🇺🇸 New York</option>
-            <option value="Australia/Sydney">🇦🇺 Sydney</option>
+            <option value="Current Location">📍Current Location</option>
+            <option value="Asia/Jakarta">🇮🇩 Jakarta</option>
+            <option value="America/Chicago">🇺🇸 Chicago</option>
+            <option value="Asia/Shanghai">🇨🇳 Shanghai</option>
           </select>
+        </div>
+      </div>
+      <div class="row current-data">
+        <div class="col-6 text-center">
+          <h2 class="current-city">Zurich</h2>
+        </div>
+        <div class="col-6 text-center">
+          <h2 class="current-time">10:48</h2>
+          <div>
+            <p class="current-date">Wednesday, 30th August 2023</p>
+          </div>
         </div>
       </div>
       <div class="row displayed-times">
         <div class="col-4 city">
-          <h2 class="time">10:48</h2>
-          <h4 class="city-name">Zurich</h4>
-          <p class="date">Wednesday 30th August 2023</p>
+          <h2 class="new-york-time time">10:48</h2>
+          <h4 class="new-york-city city-name">New York</h4>
+          <p class="new-york-date date">Wednesday 30th August 2023</p>
         </div>
         <div class="col-4 city">
-          <h2 class="time">10:48</h2>
-          <h4 class="city-name">London</h4>
-          <p class="date">Wednesday 30th August 2023</p>
+          <h2 class="london-time time">10:48</h2>
+          <h4 class="london-city city-name">London</h4>
+          <p class="london-date date">Wednesday 30th August 2023</p>
         </div>
         <div class="col-4 city">
-          <h2 class="time">10:48</h2>
-          <h4 class="city-name">New York</h4>
-          <p class="date">Wednesday 30th August 2023</p>
+          <h2 class="sydney-time time">10:48</h2>
+          <h4 class="sydney-city city-name">Sydney</h4>
+          <p class="sydney-date date">Wednesday 30th August 2023</p>
         </div>
       </div>
     </div>
