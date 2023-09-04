@@ -46,6 +46,6 @@ displayNewYorkTime();
 displayLondonTime();
 displaySydneyTime();
 
-setInterval(displayNewYorkTime, 30000);
-setInterval(displayLondonTime, 30000);
-setInterval(displaySydneyTime, 30000);
+setInterval(displayNewYorkTime, 1000);
+setInterval(displayLondonTime, 1000);
+setInterval(displaySydneyTime, 1000);
